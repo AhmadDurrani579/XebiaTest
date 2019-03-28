@@ -7,13 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		355BE7DB2A4C171E4ECC2CA7 /* Pods_XebiaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E0D6CA6D5CD21155182C2B /* Pods_XebiaTestTests.framework */; };
+		5C71E78FE042748505323D86 /* Pods_XebiaTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5503078C910D5A9133A99F0F /* Pods_XebiaTestUITests.framework */; };
+		B69DAC4CBBBA93467F1B22D6 /* Pods_XebiaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2A0B7FA76C6202C96565A4 /* Pods_XebiaTest.framework */; };
 		E2946710224CFD4800EC654D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294670F224CFD4800EC654D /* AppDelegate.swift */; };
-		E2946712224CFD4800EC654D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946711224CFD4800EC654D /* ViewController.swift */; };
 		E2946715224CFD4800EC654D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2946713224CFD4800EC654D /* Main.storyboard */; };
 		E2946717224CFD4900EC654D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2946716224CFD4900EC654D /* Assets.xcassets */; };
 		E294671A224CFD4900EC654D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2946718224CFD4900EC654D /* LaunchScreen.storyboard */; };
 		E2946725224CFD4900EC654D /* XebiaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946724224CFD4900EC654D /* XebiaTestTests.swift */; };
 		E2946730224CFD4900EC654D /* XebiaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294672F224CFD4900EC654D /* XebiaTestUITests.swift */; };
+		E2946740224CFE7D00EC654D /* XTArticleShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294673F224CFE7D00EC654D /* XTArticleShowVC.swift */; };
+		E294679B224CFEA500EC654D /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946743224CFEA400EC654D /* CardCell.swift */; };
+		E294679E224CFEA500EC654D /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946748224CFEA400EC654D /* WebServiceManager.swift */; };
+		E29467A2224CFEA500EC654D /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2946750224CFEA400EC654D /* UIViewController+Helper.m */; };
+		E29467A3224CFEA500EC654D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946751224CFEA400EC654D /* CardView.swift */; };
+		E29467A5224CFEA500EC654D /* choose_gallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2946753224CFEA400EC654D /* choose_gallery.jpg */; };
+		E29467A6224CFEA500EC654D /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946755224CFEA400EC654D /* UIAlertControllerExtension.swift */; };
+		E29467A7224CFEA500EC654D /* UIViewcontrollerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946756224CFEA400EC654D /* UIViewcontrollerExtension.swift */; };
+		E29467A8224CFEA500EC654D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946758224CFEA400EC654D /* UIColorExtension.swift */; };
+		E29467A9224CFEA500EC654D /* WAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946759224CFEA400EC654D /* WAView.swift */; };
+		E29467AC224CFEA500EC654D /* UtilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294675C224CFEA400EC654D /* UtilityHelper.swift */; };
+		E29467AD224CFEA500EC654D /* TQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294675E224CFEA400EC654D /* TQConstants.swift */; };
+		E29467AE224CFEA500EC654D /* ApplicationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294675F224CFEA400EC654D /* ApplicationHelper.swift */; };
+		E29467AF224CFEA500EC654D /* WCLShineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946761224CFEA400EC654D /* WCLShineLayer.swift */; };
+		E29467B0224CFEA500EC654D /* WCLShineClickLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946762224CFEA400EC654D /* WCLShineClickLayer.swift */; };
+		E29467B1224CFEA500EC654D /* WCLShineParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946763224CFEA400EC654D /* WCLShineParams.swift */; };
+		E29467B2224CFEA500EC654D /* WCLShineButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2946764224CFEA400EC654D /* WCLShineButton.bundle */; };
+		E29467B3224CFEA500EC654D /* WCLShineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946765224CFEA400EC654D /* WCLShineButton.swift */; };
+		E29467B4224CFEA500EC654D /* WCLShineBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946766224CFEA400EC654D /* WCLShineBundle.swift */; };
+		E29467B5224CFEA500EC654D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2946767224CFEA400EC654D /* Info.plist */; };
+		E29467B6224CFEA500EC654D /* WCLShineAngleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946768224CFEA400EC654D /* WCLShineAngleLayer.swift */; };
+		E29467B8224CFEA500EC654D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294676B224CFEA400EC654D /* DataModel.swift */; };
+		E29467CD224CFEA500EC654D /* MIBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946781224CFEA400EC654D /* MIBadgeButton.swift */; };
+		E29467CF224CFEA500EC654D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946784224CFEA400EC654D /* GradientView.swift */; };
+		E29467D0224CFEA500EC654D /* ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946785224CFEA400EC654D /* ConnectionCheck.swift */; };
+		E29467D1224CFEA500EC654D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946786224CFEA400EC654D /* RoundedButton.swift */; };
+		E29467D2224CFEA500EC654D /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946788224CFEA400EC654D /* Commons.swift */; };
+		E29467D3224CFEA500EC654D /* GeoRegionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946789224CFEA400EC654D /* GeoRegionRequest.swift */; };
+		E29467D4224CFEA500EC654D /* VisitRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294678A224CFEA400EC654D /* VisitRequest.swift */; };
+		E29467D5224CFEA500EC654D /* LocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294678B224CFEA400EC654D /* LocationRequest.swift */; };
+		E29467D6224CFEA500EC654D /* HeadingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294678C224CFEA400EC654D /* HeadingRequest.swift */; };
+		E29467D7224CFEA500EC654D /* BeaconsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294678D224CFEA400EC654D /* BeaconsManager.swift */; };
+		E29467D8224CFEA500EC654D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294678F224CFEA400EC654D /* LocationManager.swift */; };
+		E29467D9224CFEA500EC654D /* BeaconAdvertiseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946790224CFEA400EC654D /* BeaconAdvertiseRequest.swift */; };
+		E29467DA224CFEA500EC654D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2946791224CFEA400EC654D /* Info.plist */; };
+		E29467DB224CFEA500EC654D /* BeaconRegionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946792224CFEA400EC654D /* BeaconRegionRequest.swift */; };
+		E29467DC224CFEA500EC654D /* KGRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2946793224CFEA400EC654D /* KGRadioButton.swift */; };
+		E29467DE224CFEA500EC654D /* UITextField+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2946798224CFEA400EC654D /* UITextField+Additions.m */; };
+		E29467E2224CFF3300EC654D /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29467E0224CFF3300EC654D /* ArticleCell.swift */; };
+		E29467E3224CFF3300EC654D /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29467E1224CFF3300EC654D /* ArticleCell.xib */; };
+		E29467E5224D099200EC654D /* WAShareHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29467E4224D099200EC654D /* WAShareHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +77,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1604119395FB7DF939D54C15 /* Pods-XebiaTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XebiaTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XebiaTestTests/Pods-XebiaTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C2A0B7FA76C6202C96565A4 /* Pods_XebiaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XebiaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B6DC8F6DCD27A30F6008FC /* Pods-XebiaTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XebiaTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XebiaTestUITests/Pods-XebiaTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A5C322CDAD4E17ED433BE2A /* Pods-XebiaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XebiaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-XebiaTest/Pods-XebiaTest.release.xcconfig"; sourceTree = "<group>"; };
+		44AA6DEAE97CB077BBC39E3E /* Pods-XebiaTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XebiaTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XebiaTestTests/Pods-XebiaTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47E0D6CA6D5CD21155182C2B /* Pods_XebiaTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XebiaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5130A9D5BA326EF307D27386 /* Pods-XebiaTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XebiaTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XebiaTestUITests/Pods-XebiaTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5503078C910D5A9133A99F0F /* Pods_XebiaTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XebiaTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E294670C224CFD4800EC654D /* XebiaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XebiaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E294670F224CFD4800EC654D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2946711224CFD4800EC654D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2946714224CFD4800EC654D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2946716224CFD4900EC654D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2946719224CFD4900EC654D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +97,52 @@
 		E294672B224CFD4900EC654D /* XebiaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XebiaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E294672F224CFD4900EC654D /* XebiaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XebiaTestUITests.swift; sourceTree = "<group>"; };
 		E2946731224CFD4900EC654D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E294673F224CFE7D00EC654D /* XTArticleShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XTArticleShowVC.swift; sourceTree = "<group>"; };
+		E2946743224CFEA400EC654D /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		E2946748224CFEA400EC654D /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		E294674C224CFEA400EC654D /* XebiaTest-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XebiaTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		E294674F224CFEA400EC654D /* UIViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
+		E2946750224CFEA400EC654D /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
+		E2946751224CFEA400EC654D /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E2946753224CFEA400EC654D /* choose_gallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = choose_gallery.jpg; sourceTree = "<group>"; };
+		E2946755224CFEA400EC654D /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		E2946756224CFEA400EC654D /* UIViewcontrollerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewcontrollerExtension.swift; sourceTree = "<group>"; };
+		E2946758224CFEA400EC654D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E2946759224CFEA400EC654D /* WAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAView.swift; sourceTree = "<group>"; };
+		E294675C224CFEA400EC654D /* UtilityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityHelper.swift; sourceTree = "<group>"; };
+		E294675E224CFEA400EC654D /* TQConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TQConstants.swift; sourceTree = "<group>"; };
+		E294675F224CFEA400EC654D /* ApplicationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationHelper.swift; sourceTree = "<group>"; };
+		E2946761224CFEA400EC654D /* WCLShineLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineLayer.swift; sourceTree = "<group>"; };
+		E2946762224CFEA400EC654D /* WCLShineClickLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineClickLayer.swift; sourceTree = "<group>"; };
+		E2946763224CFEA400EC654D /* WCLShineParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineParams.swift; sourceTree = "<group>"; };
+		E2946764224CFEA400EC654D /* WCLShineButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WCLShineButton.bundle; sourceTree = "<group>"; };
+		E2946765224CFEA400EC654D /* WCLShineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineButton.swift; sourceTree = "<group>"; };
+		E2946766224CFEA400EC654D /* WCLShineBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineBundle.swift; sourceTree = "<group>"; };
+		E2946767224CFEA400EC654D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2946768224CFEA400EC654D /* WCLShineAngleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLShineAngleLayer.swift; sourceTree = "<group>"; };
+		E294676B224CFEA400EC654D /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E2946781224CFEA400EC654D /* MIBadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIBadgeButton.swift; sourceTree = "<group>"; };
+		E2946784224CFEA400EC654D /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E2946785224CFEA400EC654D /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionCheck.swift; sourceTree = "<group>"; };
+		E2946786224CFEA400EC654D /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		E2946788224CFEA400EC654D /* Commons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
+		E2946789224CFEA400EC654D /* GeoRegionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoRegionRequest.swift; sourceTree = "<group>"; };
+		E294678A224CFEA400EC654D /* VisitRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitRequest.swift; sourceTree = "<group>"; };
+		E294678B224CFEA400EC654D /* LocationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationRequest.swift; sourceTree = "<group>"; };
+		E294678C224CFEA400EC654D /* HeadingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingRequest.swift; sourceTree = "<group>"; };
+		E294678D224CFEA400EC654D /* BeaconsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsManager.swift; sourceTree = "<group>"; };
+		E294678E224CFEA400EC654D /* SwiftLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftLocation.h; sourceTree = "<group>"; };
+		E294678F224CFEA400EC654D /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E2946790224CFEA400EC654D /* BeaconAdvertiseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconAdvertiseRequest.swift; sourceTree = "<group>"; };
+		E2946791224CFEA400EC654D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2946792224CFEA400EC654D /* BeaconRegionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconRegionRequest.swift; sourceTree = "<group>"; };
+		E2946793224CFEA400EC654D /* KGRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGRadioButton.swift; sourceTree = "<group>"; };
+		E2946797224CFEA400EC654D /* UITextField+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Additions.h"; sourceTree = "<group>"; };
+		E2946798224CFEA400EC654D /* UITextField+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Additions.m"; sourceTree = "<group>"; };
+		E29467E0224CFF3300EC654D /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		E29467E1224CFF3300EC654D /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		E29467E4224D099200EC654D /* WAShareHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAShareHelper.swift; sourceTree = "<group>"; };
+		F4C9CC6085A1B51E94AEC35B /* Pods-XebiaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XebiaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XebiaTest/Pods-XebiaTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69DAC4CBBBA93467F1B22D6 /* Pods_XebiaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355BE7DB2A4C171E4ECC2CA7 /* Pods_XebiaTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +166,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C71E78FE042748505323D86 /* Pods_XebiaTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18C1570C13D74407368F1BC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A0B7FA76C6202C96565A4 /* Pods_XebiaTest.framework */,
+				47E0D6CA6D5CD21155182C2B /* Pods_XebiaTestTests.framework */,
+				5503078C910D5A9133A99F0F /* Pods_XebiaTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E05BFF604F7EFD45EBB8E537 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4C9CC6085A1B51E94AEC35B /* Pods-XebiaTest.debug.xcconfig */,
+				2A5C322CDAD4E17ED433BE2A /* Pods-XebiaTest.release.xcconfig */,
+				44AA6DEAE97CB077BBC39E3E /* Pods-XebiaTestTests.debug.xcconfig */,
+				1604119395FB7DF939D54C15 /* Pods-XebiaTestTests.release.xcconfig */,
+				26B6DC8F6DCD27A30F6008FC /* Pods-XebiaTestUITests.debug.xcconfig */,
+				5130A9D5BA326EF307D27386 /* Pods-XebiaTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2946703224CFD4800EC654D = {
 			isa = PBXGroup;
 			children = (
 				E294670E224CFD4800EC654D /* XebiaTest */,
+				E2946741224CFEA400EC654D /* Resource */,
 				E2946723224CFD4900EC654D /* XebiaTestTests */,
 				E294672E224CFD4900EC654D /* XebiaTestUITests */,
 				E294670D224CFD4800EC654D /* Products */,
+				E05BFF604F7EFD45EBB8E537 /* Pods */,
+				18C1570C13D74407368F1BC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +223,12 @@
 			isa = PBXGroup;
 			children = (
 				E294670F224CFD4800EC654D /* AppDelegate.swift */,
-				E2946711224CFD4800EC654D /* ViewController.swift */,
+				E294673D224CFE5500EC654D /* ViewController */,
 				E2946713224CFD4800EC654D /* Main.storyboard */,
 				E2946716224CFD4900EC654D /* Assets.xcassets */,
 				E2946718224CFD4900EC654D /* LaunchScreen.storyboard */,
 				E294671B224CFD4900EC654D /* Info.plist */,
+				E294673E224CFE6400EC654D /* UITableViewCell */,
 			);
 			path = XebiaTest;
 			sourceTree = "<group>";
@@ -125,6 +251,152 @@
 			path = XebiaTestUITests;
 			sourceTree = "<group>";
 		};
+		E294673D224CFE5500EC654D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E294673F224CFE7D00EC654D /* XTArticleShowVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E294673E224CFE6400EC654D /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E29467E0224CFF3300EC654D /* ArticleCell.swift */,
+				E29467E1224CFF3300EC654D /* ArticleCell.xib */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		E2946741224CFEA400EC654D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E29467E4224D099200EC654D /* WAShareHelper.swift */,
+				E2946743224CFEA400EC654D /* CardCell.swift */,
+				E2946747224CFEA400EC654D /* WebServiceManager */,
+				E294674C224CFEA400EC654D /* XebiaTest-Bridging-Header.h */,
+				E294674E224CFEA400EC654D /* AlertController */,
+				E2946751224CFEA400EC654D /* CardView.swift */,
+				E2946753224CFEA400EC654D /* choose_gallery.jpg */,
+				E2946754224CFEA400EC654D /* Extensions */,
+				E294675C224CFEA400EC654D /* UtilityHelper.swift */,
+				E294675D224CFEA400EC654D /* Constant */,
+				E294675F224CFEA400EC654D /* ApplicationHelper.swift */,
+				E2946760224CFEA400EC654D /* WCLShineButton */,
+				E2946769224CFEA400EC654D /* Model */,
+				E2946781224CFEA400EC654D /* MIBadgeButton.swift */,
+				E2946784224CFEA400EC654D /* GradientView.swift */,
+				E2946785224CFEA400EC654D /* ConnectionCheck.swift */,
+				E2946786224CFEA400EC654D /* RoundedButton.swift */,
+				E2946787224CFEA400EC654D /* SwiftLocation */,
+				E2946793224CFEA400EC654D /* KGRadioButton.swift */,
+				E2946795224CFEA400EC654D /* Categories */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E2946747224CFEA400EC654D /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				E2946748224CFEA400EC654D /* WebServiceManager.swift */,
+			);
+			path = WebServiceManager;
+			sourceTree = "<group>";
+		};
+		E294674E224CFEA400EC654D /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				E294674F224CFEA400EC654D /* UIViewController+Helper.h */,
+				E2946750224CFEA400EC654D /* UIViewController+Helper.m */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+		E2946754224CFEA400EC654D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2946755224CFEA400EC654D /* UIAlertControllerExtension.swift */,
+				E2946756224CFEA400EC654D /* UIViewcontrollerExtension.swift */,
+				E2946757224CFEA400EC654D /* UIColorExtenios */,
+				E2946759224CFEA400EC654D /* WAView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2946757224CFEA400EC654D /* UIColorExtenios */ = {
+			isa = PBXGroup;
+			children = (
+				E2946758224CFEA400EC654D /* UIColorExtension.swift */,
+			);
+			path = UIColorExtenios;
+			sourceTree = "<group>";
+		};
+		E294675D224CFEA400EC654D /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				E294675E224CFEA400EC654D /* TQConstants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		E2946760224CFEA400EC654D /* WCLShineButton */ = {
+			isa = PBXGroup;
+			children = (
+				E2946761224CFEA400EC654D /* WCLShineLayer.swift */,
+				E2946762224CFEA400EC654D /* WCLShineClickLayer.swift */,
+				E2946763224CFEA400EC654D /* WCLShineParams.swift */,
+				E2946764224CFEA400EC654D /* WCLShineButton.bundle */,
+				E2946765224CFEA400EC654D /* WCLShineButton.swift */,
+				E2946766224CFEA400EC654D /* WCLShineBundle.swift */,
+				E2946767224CFEA400EC654D /* Info.plist */,
+				E2946768224CFEA400EC654D /* WCLShineAngleLayer.swift */,
+			);
+			path = WCLShineButton;
+			sourceTree = "<group>";
+		};
+		E2946769224CFEA400EC654D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E294676B224CFEA400EC654D /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2946787224CFEA400EC654D /* SwiftLocation */ = {
+			isa = PBXGroup;
+			children = (
+				E2946788224CFEA400EC654D /* Commons.swift */,
+				E2946789224CFEA400EC654D /* GeoRegionRequest.swift */,
+				E294678A224CFEA400EC654D /* VisitRequest.swift */,
+				E294678B224CFEA400EC654D /* LocationRequest.swift */,
+				E294678C224CFEA400EC654D /* HeadingRequest.swift */,
+				E294678D224CFEA400EC654D /* BeaconsManager.swift */,
+				E294678E224CFEA400EC654D /* SwiftLocation.h */,
+				E294678F224CFEA400EC654D /* LocationManager.swift */,
+				E2946790224CFEA400EC654D /* BeaconAdvertiseRequest.swift */,
+				E2946791224CFEA400EC654D /* Info.plist */,
+				E2946792224CFEA400EC654D /* BeaconRegionRequest.swift */,
+			);
+			path = SwiftLocation;
+			sourceTree = "<group>";
+		};
+		E2946795224CFEA400EC654D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E2946796224CFEA400EC654D /* UITextField */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E2946796224CFEA400EC654D /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				E2946797224CFEA400EC654D /* UITextField+Additions.h */,
+				E2946798224CFEA400EC654D /* UITextField+Additions.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +404,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2946734224CFD4900EC654D /* Build configuration list for PBXNativeTarget "XebiaTest" */;
 			buildPhases = (
+				1DB0196BEDEDF82144F1F856 /* [CP] Check Pods Manifest.lock */,
 				E2946708224CFD4800EC654D /* Sources */,
 				E2946709224CFD4800EC654D /* Frameworks */,
 				E294670A224CFD4800EC654D /* Resources */,
+				C70BA1D06D94BA8E5C12B879 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +423,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2946737224CFD4900EC654D /* Build configuration list for PBXNativeTarget "XebiaTestTests" */;
 			buildPhases = (
+				283246DA41AF21B580F892CF /* [CP] Check Pods Manifest.lock */,
 				E294671C224CFD4900EC654D /* Sources */,
 				E294671D224CFD4900EC654D /* Frameworks */,
 				E294671E224CFD4900EC654D /* Resources */,
@@ -167,6 +442,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E294673A224CFD4900EC654D /* Build configuration list for PBXNativeTarget "XebiaTestUITests" */;
 			buildPhases = (
+				AD2613C5E490FD645CF0FCFC /* [CP] Check Pods Manifest.lock */,
 				E2946727224CFD4900EC654D /* Sources */,
 				E2946728224CFD4900EC654D /* Frameworks */,
 				E2946729224CFD4900EC654D /* Resources */,
@@ -229,9 +505,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29467DA224CFEA500EC654D /* Info.plist in Resources */,
 				E294671A224CFD4900EC654D /* LaunchScreen.storyboard in Resources */,
+				E29467B2224CFEA500EC654D /* WCLShineButton.bundle in Resources */,
 				E2946717224CFD4900EC654D /* Assets.xcassets in Resources */,
+				E29467E3224CFF3300EC654D /* ArticleCell.xib in Resources */,
+				E29467A5224CFEA500EC654D /* choose_gallery.jpg in Resources */,
 				E2946715224CFD4800EC654D /* Main.storyboard in Resources */,
+				E29467B5224CFEA500EC654D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +532,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DB0196BEDEDF82144F1F856 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XebiaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		283246DA41AF21B580F892CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XebiaTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD2613C5E490FD645CF0FCFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XebiaTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C70BA1D06D94BA8E5C12B879 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XebiaTest/Pods-XebiaTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XebiaTest/Pods-XebiaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2946708224CFD4800EC654D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2946712224CFD4800EC654D /* ViewController.swift in Sources */,
+				E29467AE224CFEA500EC654D /* ApplicationHelper.swift in Sources */,
+				E29467D4224CFEA500EC654D /* VisitRequest.swift in Sources */,
+				E29467CF224CFEA500EC654D /* GradientView.swift in Sources */,
+				E29467CD224CFEA500EC654D /* MIBadgeButton.swift in Sources */,
+				E29467AC224CFEA500EC654D /* UtilityHelper.swift in Sources */,
+				E29467B6224CFEA500EC654D /* WCLShineAngleLayer.swift in Sources */,
+				E29467DB224CFEA500EC654D /* BeaconRegionRequest.swift in Sources */,
+				E29467E2224CFF3300EC654D /* ArticleCell.swift in Sources */,
+				E29467A3224CFEA500EC654D /* CardView.swift in Sources */,
+				E29467DE224CFEA500EC654D /* UITextField+Additions.m in Sources */,
+				E29467AD224CFEA500EC654D /* TQConstants.swift in Sources */,
+				E29467D6224CFEA500EC654D /* HeadingRequest.swift in Sources */,
+				E29467D7224CFEA500EC654D /* BeaconsManager.swift in Sources */,
+				E29467A9224CFEA500EC654D /* WAView.swift in Sources */,
+				E2946740224CFE7D00EC654D /* XTArticleShowVC.swift in Sources */,
+				E29467D0224CFEA500EC654D /* ConnectionCheck.swift in Sources */,
+				E294679E224CFEA500EC654D /* WebServiceManager.swift in Sources */,
+				E29467A2224CFEA500EC654D /* UIViewController+Helper.m in Sources */,
+				E29467A8224CFEA500EC654D /* UIColorExtension.swift in Sources */,
+				E29467B3224CFEA500EC654D /* WCLShineButton.swift in Sources */,
 				E2946710224CFD4800EC654D /* AppDelegate.swift in Sources */,
+				E29467A6224CFEA500EC654D /* UIAlertControllerExtension.swift in Sources */,
+				E29467A7224CFEA500EC654D /* UIViewcontrollerExtension.swift in Sources */,
+				E29467B0224CFEA500EC654D /* WCLShineClickLayer.swift in Sources */,
+				E29467B8224CFEA500EC654D /* DataModel.swift in Sources */,
+				E29467AF224CFEA500EC654D /* WCLShineLayer.swift in Sources */,
+				E29467D1224CFEA500EC654D /* RoundedButton.swift in Sources */,
+				E29467D9224CFEA500EC654D /* BeaconAdvertiseRequest.swift in Sources */,
+				E29467D5224CFEA500EC654D /* LocationRequest.swift in Sources */,
+				E29467B4224CFEA500EC654D /* WCLShineBundle.swift in Sources */,
+				E294679B224CFEA500EC654D /* CardCell.swift in Sources */,
+				E29467D2224CFEA500EC654D /* Commons.swift in Sources */,
+				E29467B1224CFEA500EC654D /* WCLShineParams.swift in Sources */,
+				E29467DC224CFEA500EC654D /* KGRadioButton.swift in Sources */,
+				E29467E5224D099200EC654D /* WAShareHelper.swift in Sources */,
+				E29467D3224CFEA500EC654D /* GeoRegionRequest.swift in Sources */,
+				E29467D8224CFEA500EC654D /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +829,7 @@
 		};
 		E2946735224CFD4900EC654D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C9CC6085A1B51E94AEC35B /* Pods-XebiaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +841,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techEase.XebiaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ahmed/Documents/XebiaTest/Resource/XebiaTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +849,7 @@
 		};
 		E2946736224CFD4900EC654D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5C322CDAD4E17ED433BE2A /* Pods-XebiaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +861,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techEase.XebiaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ahmed/Documents/XebiaTest/Resource/XebiaTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +869,7 @@
 		};
 		E2946738224CFD4900EC654D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AA6DEAE97CB077BBC39E3E /* Pods-XebiaTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +891,7 @@
 		};
 		E2946739224CFD4900EC654D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1604119395FB7DF939D54C15 /* Pods-XebiaTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +913,7 @@
 		};
 		E294673B224CFD4900EC654D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B6DC8F6DCD27A30F6008FC /* Pods-XebiaTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +934,7 @@
 		};
 		E294673C224CFD4900EC654D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5130A9D5BA326EF307D27386 /* Pods-XebiaTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
